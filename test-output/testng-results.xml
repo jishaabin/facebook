@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-24T04:17:16Z" name="Default suite" finished-at="2019-07-24T04:17:56Z" duration-ms="40178">
+    <groups>
+    </groups>
+    <test started-at="2019-07-24T04:17:16Z" name="Default test" finished-at="2019-07-24T04:17:56Z" duration-ms="40178">
+      <class name="facebook">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:facebook@5b94b04d]" started-at="2019-07-24T04:17:16Z" name="Setup" finished-at="2019-07-24T04:17:21Z" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Login()[pri:0, instance:facebook@5b94b04d]" started-at="2019-07-24T04:17:21Z" name="Login" finished-at="2019-07-24T04:17:52Z" duration-ms="30768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="PostStatus()[pri:0, instance:facebook@5b94b04d]" started-at="2019-07-24T04:17:52Z" name="PostStatus" finished-at="2019-07-24T04:17:56Z" duration-ms="4348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostStatus -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:facebook@5b94b04d]" started-at="2019-07-24T04:17:56Z" name="Teardown" finished-at="2019-07-24T04:17:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
